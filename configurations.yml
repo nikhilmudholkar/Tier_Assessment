@@ -1,0 +1,22 @@
+
+# postgres credentials
+url: "jdbc:postgresql://localhost:5432/postgres"
+username: "postgres"
+password: "password"
+database: "postgres"
+host: "localhost"
+port: 5432
+
+# Write configuratons
+driver: "org.postgresql.Driver"
+jar_path: "/home/parallax/PycharmProjects/Tier_Assessment/postgresql-42.2.20.jar"
+mode: "overwrite"
+data_dir: "/home/parallax/PycharmProjects/Tier_Assessment/Data/"
+repartition_data_dir: "/home/parallax/PycharmProjects/Tier_Assessment/Data_csv/"
+
+#data_checks configurations for weather
+non_negative_columns: "['currently_apparenttemperature','currently_humidity','currently_precipintensity','currently_precipprobability','currently_temperature','currently_windspeed']"
+
+#configurations for track_events
+date_columns: "['original_timestamp_time', 'received_time', 'sent_time']"
+
