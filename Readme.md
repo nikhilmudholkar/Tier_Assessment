@@ -44,3 +44,7 @@ the most expensive step is loading the data into the postgres table. I have impl
 - Currently the best method is copy command. This command runs on several csv files iteratively and pushes the data to Database. This can be further sped up by using multiprocessing to push multiple files simultaneously.
 - Currently the data is loaded into spark dataframe using the "spark_context.read.json" method. Spark infers the schema but it scans the entire data first to infer it. This adds to the latency. This read time can therefore be reduced by providing the spark with the schema.
 
+## How to run
+- Add both the data jsons in the Data/ folder. 
+-  `pipenv install`
+- run main.py
