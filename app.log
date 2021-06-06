@@ -1476,3 +1476,27 @@
 2021-06-06 18:13:33,058 src.LoadJsons INFO - Data written successfully in 4.396478652954102 seconds using Copy method
 2021-06-06 18:13:33,060 __main__ INFO - Data loading process finished for /home/parallax/PycharmProjects/Tier_Assessment/Data/track_events.json
 2021-06-06 18:13:33,060 __main__ INFO - Total time taken to load = 63.69395208358765 seconds
+2021-06-06 18:21:18,865 config_parser INFO - configurations loaded successfully
+2021-06-06 18:21:18,867 config_parser INFO - configurations loaded successfully
+2021-06-06 18:21:18,868 config_parser INFO - configurations loaded successfully
+2021-06-06 18:21:18,869 __main__ INFO - ['/home/parallax/PycharmProjects/Tier_Assessment/Data/weather.json', '/home/parallax/PycharmProjects/Tier_Assessment/Data/track_events.json']
+2021-06-06 18:21:18,869 __main__ INFO - Data loading process started for /home/parallax/PycharmProjects/Tier_Assessment/Data/weather.json
+2021-06-06 18:21:18,871 src.LoadJsons INFO - Spark context created
+2021-06-06 18:21:23,891 src.LoadJsons INFO - JSON data read from file successful
+2021-06-06 18:21:24,100 src.LoadJsons INFO - Columns renamed successfully
+2021-06-06 18:21:24,160 src.LoadJsons INFO - Datetime columns datatype resolved successfully
+2021-06-06 18:21:24,991 src.LoadJsons INFO - Starting to remove negative values. Current row rount = 17154
+2021-06-06 18:21:25,852 src.LoadJsons INFO - negative values removed. Final row count = 15750
+2021-06-06 18:21:25,853 src.LoadJsons INFO - Wrting data to weather table with overwrite mode
+2021-06-06 18:21:28,661 src.LoadJsons INFO - Data written successfully to weather in 2.8085227012634277 seconds using JDBC
+2021-06-06 18:21:30,347 src.LoadJsons INFO - Data written successfully to weather in 1.6857593059539795 seconds using repartitions JDBC
+2021-06-06 18:21:32,904 src.LoadJsons INFO - Data written successfully in 0.1441490650177002 seconds using Copy method
+2021-06-06 18:21:32,904 __main__ INFO - Data loading process finished for /home/parallax/PycharmProjects/Tier_Assessment/Data/weather.json
+2021-06-06 18:21:32,904 __main__ INFO - Total time taken to load = 14.035392999649048 seconds
+2021-06-06 18:21:32,904 __main__ INFO - Data loading process started for /home/parallax/PycharmProjects/Tier_Assessment/Data/track_events.json
+2021-06-06 18:21:32,912 src.LoadJsons INFO - Spark context created
+2021-06-06 18:21:41,163 src.LoadJsons INFO - JSON data read from file successful
+2021-06-06 18:21:41,341 src.LoadJsons INFO - Columns renamed successfully
+2021-06-06 18:21:41,408 src.LoadJsons INFO - Datetime columns datatype resolved successfully
+2021-06-06 18:21:41,429 src.LoadJsons INFO - Wrting data to track_events table with overwrite mode
+2021-06-06 18:21:59,435 src.LoadJsons INFO - Data written successfully to track_events in 18.005574941635132 seconds using JDBC

@@ -2,28 +2,6 @@
 
 The project contains following folder structure:-
 
-├── app.log
-├── config_parser.py
-├── configurations.yml
-├── Data
-│   ├── track_events.json
-│   └── weather.json
-├── Data_csv
-│   ├── track_events
-│   └── weather
-├── main.py
-├── Pipfile
-├── Pipfile.lock
-├── postgresql-42.2.20.jar
-├── requirements.txt
-├── src
-│   ├── __init__.py
-│   ├── LoadJsons.py
-└── utils
-│   ├── __init__.py
-│   ├── logger_util.py
-│   ├── postgres_util.py
-
 
 - app.log:- file to store the logs
 - config_parser:- class to load the configurations and credentials before executing a script
