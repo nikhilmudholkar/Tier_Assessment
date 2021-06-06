@@ -1,4 +1,9 @@
 
 __pycache__/
-Data/*.json
-Data_csv/
+Data/*
+Data_csv/track_events/*
+Data_csv/weather/*
+
+!Data_csv/track_events/.gitkeep
+!Data_csv/weather/.gitkeep
+!Data/.gitkeep
